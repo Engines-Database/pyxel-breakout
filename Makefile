@@ -21,7 +21,7 @@ build:
 .PHONY: edit
 ## Edit resource file
 edit:
-	poetry run pyxel edit ./src/my_resource.pyxres
+	poetry run pyxel edit ./src/game.pyxres
 
 
 # MAKEFILE HELPERS

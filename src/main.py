@@ -17,7 +17,7 @@ class App():
     
     def __init__(self):
         pyxel.init(constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT)
-        pyxel.load("my_resource.pyxres")
+        pyxel.load("game.pyxres")
 
         self.score_manager = score.ScoreManager()
         self.reset()
@@ -26,6 +26,8 @@ class App():
 
 
     def reset(self):
+        pyxel.playm(0, loop=True)
+        
         self.finished = False
 
         self.player = None
