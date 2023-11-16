@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyxel-breakout"
+version = "0.1.0"
+description = ""
+authors = ["Engines Database"]
+readme = "README.md"
+packages = [{include = "pyxel_breakout"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyxel = "^1.9.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
